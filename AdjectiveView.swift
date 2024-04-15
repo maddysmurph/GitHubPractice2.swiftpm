@@ -1,5 +1,5 @@
 //
-//  NounView.swift
+//  AdjectiveView.swift
 //  GitHubPractice2
 //
 //  Created by Neha Darji on 4/15/24.
@@ -7,10 +7,10 @@
 
 import SwiftUI
 
-struct NounView: View {
+struct AdjectiveView: View {
     var body: some View {
-        NavigationLink("Verb View") {
-            //VerbView()
+        NavigationLink("Adjective View") {
+            SummaryView()
         }
     }
 }
