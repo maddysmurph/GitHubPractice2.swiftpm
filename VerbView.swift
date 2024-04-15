@@ -10,7 +10,7 @@ import SwiftUI
 struct VerbView: View {
     var body: some View {
         NavigationView{
-            NavigationLink("Click Here"){
+            NavigationLink("Click Here For Adjective View"){
                 AdjectiveView()
             }
         }
