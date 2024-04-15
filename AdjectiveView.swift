@@ -9,8 +9,10 @@ import SwiftUI
 
 struct AdjectiveView: View {
     var body: some View {
-        NavigationLink("Adjective View") {
-            SummaryView()
+        NavigationView{
+            NavigationLink("Click Here For Summary View") {
+                SummaryView()
+            }
         }
     }
 }
